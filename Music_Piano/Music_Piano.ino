@@ -22,6 +22,8 @@ void setup()                    // Función setup, solo se ejecuta una vez en to
   digitalWrite(BUTTON_G, HIGH);   // Activar el boton BUTTON_G
   pinMode (buttonSong, INPUT);    // El boton buttonSong como entrada.
   digitalWrite(buttonSong, HIGH); // Activar el boton buttonSong
+  pinMode (PIEZO, OUTPUT);        // El buzzer de output
+  digitalWrite(PIEZO, HIGH);      // El buzzer activado
 }
 
 // Notas de las melodias de la canción
